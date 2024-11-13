@@ -26,10 +26,10 @@ Asio is a header only lib export, source is included or reuse the
 
 ## FYI
 
-- Make changes to fit your build.
+- Make changes to fit your build, there could be mistakes here.
 - Some header files are generated from .ini files by cmake,
     don't know there is rule in Android.bp that have the same
-    effect.I cross compiled with NDK and stole the missing 
+    effect.I cross compiled with NDK and stole the missing
     header form the build folder.
 - There could be unsuported data types like float 128,
     some minor code changes are done here and there to get this
@@ -37,5 +37,8 @@ Asio is a header only lib export, source is included or reuse the
 
 ## Refs
 
-- Future me add links to
-- [CrossCompiling](www.placeholder.scom) FastDDS with Android NDK
+- [CrossCompiling](CrossCompiling_with_NDK.md) FastDDS with Android NDK
+- [Fast-DDS](https://github.com/eProsima/Fast-DDS.git)
+- [Fast-CDR](https://github.com/eProsima/Fast-CDR.git)
+- [memory](https://github.com/foonathan/memory.git)
+- [tinyXml2](https://github.com/leethomason/tinyxml2.git)
