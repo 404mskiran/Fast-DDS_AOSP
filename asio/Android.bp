@@ -1,0 +1,8 @@
+cc_library_headers {
+    name: "vendor.asio.headers",
+    vendor: true,
+
+    export_include_dirs: [
+        "include",
+    ],
+}

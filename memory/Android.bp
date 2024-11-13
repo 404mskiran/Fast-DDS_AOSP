@@ -1,0 +1,23 @@
+cc_library_shared {
+    name: "fooNathanMemory",
+    vendor: true,
+    relative_install_path : "hw",
+
+    local_include_dirs: [
+        "include/foonathan/memory",
+    ],
+
+    export_include_dirs: [
+        "include",
+    ],
+
+    srcs: [
+        "src/**/*.cpp",
+    ],
+
+    shared_libs: [
+        "liblog",
+        "libcutils",
+
+    ],
+}
